@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+/* ================= navbar ======= */
+.nav{
+    
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    height: 8vh;
+    padding-left: 60px;
+}
+.menu ul{
+    display: flex;
+    padding-right: 60px;
+}
+.menu ul li{
+    list-style: none;
+    padding: 4vh 40px 4vh 0;
+    color: rgb(2, 2, 108);
+    font-weight: bold;
+}
+
+
+/* ==================   home  ================ */
+.home{
+    background-image: linear-gradient(to bottom, rgba(121, 80, 244, 0.3),rgba(26, 3, 97, 0.8)), url('https://img.freepik.com/premium-photo/luxurious-new-building-with-curb-appeal_1127-4448.jpg');
+    height: 80vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    text-align: center;
+    padding-top: 150px;
+}
+.content h1{
+    color: white;
+    font-size: 40px;
+}
+.content p{
+    color: white;
+   line-height: 1.7;
+   padding-top: 15px;
+}
+.purple{
+    height: 40px;
+    width: 9vw;
+    margin-top: 25px;
+    background-color: rgb(55, 3, 129);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.yellow{
+    height: 40px;
+    width: 9vw;
+    margin-top: 25px;
+    background-color: rgb(236, 198, 29);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* ==================  features ====== */
+.features{
+    margin-top: 8vh;
+}
+.features h1{
+    text-align: center;
+    color: rgb(2, 2, 108);
+    font-weight: bolder;
+    font-size: 32px;
+}
+.features p{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.f-cards{
+    display: flex;
+    margin: 30px 130px 40px 130px;
+
+}
+.f-card{
+    background-color: rgb(236, 236, 248);
+    margin: 10px;
+    width: 26vw;
+}
+.f-card i{
+    font-size: 28px;
+}
+.f-card h3{
+    padding-top: 12px;
+}
+.f-card p{
+    text-align: start;
+    line-height: 1.4;
+}
+
+/* ==============  course   ========== */
+.course {
+   padding-top: 30px;
+}
+.course h1{
+    text-align: center;
+    color: rgb(2, 2, 108);
+    font-size: 32px;
+    font-weight: bolder;
+}
+.course p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cards {
+   display: flex;
+   margin: 30px 130px 70px 130px;
+   flex-wrap: wrap;
+}
+.card{
+    width: 26vw;
+    background-color: rgb(236, 236, 248);
+    margin: 10px;
+}
+.card-img{
+    position: relative;
+}
+.card-img img{
+    width: 26vw;
+    height: 33vh;
+}
+.card-price{
+    position: absolute; 
+    background: rgba(50, 8, 109, 0.89);
+    width: 4vw;
+    height: 8vh;
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: 20vw;
+}
+.card-price p{
+    color: white;
+    display: flex;
+    height: 7vh;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.card-content p{
+    text-align: start;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+.card-content h4{
+    padding-top: 4px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.card-content .stars{
+    padding-top: 5px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    
+}
+.stars span{
+    padding-left: 5px;
+}
+
+/* =============== register  ========== */
+.register {
+    margin-bottom: 40px;
+    background-image: linear-gradient(to bottom, rgba(121, 80, 244, 0.3),rgba(26, 3, 97, 0.8)), url('https://cdn.create.vista.com/api/media/small/196752940/stock-photo-partial-view-man-coffee-cup-doughnut-working-table-laptop-clipboard');
+    height: 80vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.reg {
+    padding: 160px 130px;
+}
+.reg p{
+    color: white;
+    font-size: 20px;
+}
+.reg h1{
+    color: white;
+    margin-top: 10px;
+    font-size: 48px;
+}
+.time{
+    display: flex;
+    margin-top: 30px;
+}
+.days{
+    height: 10vh;
+    width: 7vw;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, rgba(161, 161, 161, 0.3) 0%,rgba(161, 161, 161, 0.3) 100%);
+    margin: 8px;
+}
+.hours{
+    height: 10vh;
+    width: 8vw;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, rgba(161, 161, 161, 0.3) 0%,rgba(161, 161, 161, 0.3) 100%);
+    margin: 8px;
+}
+.minutes{
+    height: 10vh;
+    width: 10vw;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, rgba(161, 161, 161, 0.3) 0%,rgba(161, 161, 161, 0.3) 100%);
+    margin: 8px;
+}
+.seconds{
+    height: 10vh;
+    width: 10vw;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, rgba(161, 161, 161, 0.3) 0%,rgba(161, 161, 161, 0.3) 100%);
+    margin: 8px;
+}
+.account{
+    margin: 70px 0 50px 140px;
+    height: 60vh;
+    width: 25vw;
+    background-color: white;
+    padding: 40px 20px 20px 40px;
+}
+.account h2{
+    padding-bottom: 15px;
+}
+.account input {
+    height: 5vh;
+    margin: 20px 0;
+    border-top: 1px solid navy;
+    border-bottom: 1px solid navy;
+    border-left: 1px solid gray;
+    border-right: 2px solid navy;
+}
+.account input::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    padding-left: 15px;
+}
+
+/* =============  community  ============ */
+
+.community{
+    padding-top: 30px;
+}
+.community h1{
+    text-align: center;
+    color: rgb(2, 2, 108);
+    font-size: 32px;
+    font-weight: bolder;
+}
+.community p{
+    text-align: center;
+    padding-top: 10px;
+}
+.c-cards {
+    display: flex;
+    margin: 20px 9vw 80px 9vw;
+}
+.c-card {
+    height: 50vh;
+    width: 20vw;
+    background-color: rgb(252, 247, 241);
+    margin: 10px;
+}
+.c-card img{
+    height: 20vh;
+    margin-top: 50px;
+   margin-left: 80px;
+   outline:  8px solid rgb(247, 214, 247);
+   border-radius: 50%;
+}
+.c-card h3{
+    text-align: center;
+    margin-top: 25px;
+}
+.c-card .e-icons{
+    display: flex;
+    justify-content: center;
+}
+.e-icons i{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    margin: 2px;
+    margin-top: 15px;
+    padding-top:7px;
+    text-align: center;
+   
+}
+
+
+/* ======== footer   */
+.footer {
+    background-color: rgb(2, 2, 84);
+    height: 50vh;
+    
+}
+.sub-footer{
+    display: flex;
+   padding: 60px 40px 40px 80px;
+}
+.footer h4{
+    color: white;
+}
+.products{
+    width: 15vw;
+}
+.products ul{
+    margin-top: 20px;
+    
+}
+.products ul li{
+    color: gray;
+    list-style: none;
+    padding: 7px;
+    font-size: 15px;
+}
+
+.newsletter{
+    width: 30vw;
+}
+.newsletter p{
+    color: gray;
+    margin-top: 20px;
+}
+form{
+    display: flex;
+    
+}
+form input{
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    background-color: rgb(71, 71, 143);
+}
+form input::placeholder{
+    color: white;
+    padding-left: 10px;
+}
+.sub{
+    height: 40px;
+    width: 8vw;
+    margin-top: 20px;
+    margin-left: 2px;
+    background-color: rgb(236, 198, 29);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+}
+.copy p{
+    color: white;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.f-icons{
+    display: flex;
+    margin-right: 130px;
+}
+.f-icons i{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(149, 149, 237);
+    color: white;
+    margin: 2px;
+    text-align: center;
+    padding-top: 10px;
+   
+}
